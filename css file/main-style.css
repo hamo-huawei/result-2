@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadada;
+}
+.container{
+    width: 75%;
+    height: 400px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 7px 3px #6565cd;
+    transition: all 0.3s
+}
+.container:hover{
+    box-shadow: 0px 0px 14px 3px #6565cd;
+}
+.all{
+    display: flex;
+    height: 100%;
+    
+}
+
+.left{
+    background-color: #2907a5;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+    border-radius: 25px;
+}
+
+.left > h2{
+    color: #d1cdcd;
+    position: absolute;
+    top: 20px;
+}
+.left .circle{
+    width: 140px;
+    height: 140px;
+    position: relative;
+   
+    border-radius: 50%;
+   
+    background-image: linear-gradient(to bottom, #090954, #08303000);
+}
+.left .circle > div{
+    position: absolute;
+    top: 24%;
+    left: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left .circle > div >h1{
+    font-size: 47px;
+    color: white;
+}
+.left .circle > div p{
+    font-size: 13px;
+    color: #777373
+}
+.left .great{
+    color: white;
+    margin: 15px 0;
+}
+.left .p-left{
+    color: white;
+    width: 79%;
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+.right{
+    
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+    
+.right > h1{
+    font-size: 20px;
+    padding-top: 7px;
+}
+.right .results{
+    
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.right .results .one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff00002e;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+.right .results .two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbff0057;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+.right .results .three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #09ff002e;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+.right .results .four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0026ff2e;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+.results .plus{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.results .plus .icon-size{
+    font-size: 30px
+}
+
+
+.results div:first-child .plus-1{
+    color: red
+}
+.results div:nth-child(2) .plus-2{
+    color: #cdbd00
+}
+.results div:nth-child(3) .plus-3{
+    color: #18c518
+}
+.results div:last-child .plus-4{
+    color: blue
+}
+.right  button{
+    outline: none;
+    border: none;
+    background-color: #2907a5;
+    width: 100%;
+    padding: 12px 0;
+    transform: translateY(10px);
+    border-radius: 40px;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 3px;
+    transition: all 0.3s
+}
+.right  button:hover{
+    background-color: transparent;
+    color:  #2907a5;
+    border: 1px solid  #2907a5
+}
+
+
+
